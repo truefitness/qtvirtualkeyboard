@@ -1,0 +1,15 @@
+Source: qtvirtualkeyboard
+Section: main
+Priority: optional
+Maintainer: Robert Hedges <rhedges@truefitness.com>
+Build-Depends: debhelper (>= 9), cdbs, qtbase5-dev
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/truefitness/qtvirtualkeyboard
+
+Package: qtvirtualkeyboard
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Qt Virtual Keyboard
+ Qt Virtual Keyboard is a virtual keyboard framework that consists of a C++
+ backend supporting custom input methods as well as a UI frontend implemented
+ in QML.
